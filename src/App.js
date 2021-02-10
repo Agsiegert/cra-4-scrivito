@@ -1,3 +1,4 @@
+import * as Scrivito from 'scrivito';
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,7 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <h1 className="App-title">Welcome to React with Scrivito</h1>
       </header>
+      <Scrivito.CurrentPage />
     </div>
   );
 }
